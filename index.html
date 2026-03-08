@@ -3,177 +3,285 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipo de Producto - Wareclouds</title>
+    <title>Priorización de Proyectos 2026 · Wareclouds</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Barra de navegación -->
-    <nav class="navbar">
-        <div class="nav-logo">
-            <span>🚀 Wareclouds</span>
+    <header>
+        <div class="header-content">
+            <span class="header-icon">🥇</span>
+            <h1>Priorización de Proyectos 2026</h1>
+            <p class="header-subtitle">Equipo de Producto · Wareclouds</p>
         </div>
-        <ul class="nav-links">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#priorizacion">Priorización</a></li>
-            <li><a href="#seleccion">Selección</a></li>
-            <li><a href="#output">Resultados</a></li>
-            <li><a href="#equipo">Equipo</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+    </header>
 
-    <!-- Hero / Inicio -->
-    <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>Equipo de Producto</h1>
-            <p class="hero-sub">Impulsando soluciones logísticas de clase mundial en <strong>Wareclouds</strong></p>
-            <div class="hero-buttons">
-                <a href="#priorizacion" class="btn btn-primary">Ver Proyectos</a>
-                <a href="#contacto" class="btn btn-secondary">Contáctanos</a>
+    <main>
+
+        <!-- INTRO -->
+        <section class="intro-section">
+            <div class="callout">
+                <span class="callout-icon">💡</span>
+                <p>Esta nueva estrategia establece una cadencia de trabajo continua de <strong>4 Semanas por Ciclo</strong>, garantizando que el equipo Tech/Producto siempre trabaje en las tareas más importantes y mejor definidas, mientras el equipo de Producto mantiene un <em>backlog</em> constantemente preparado de forma paralela.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- Sección Priorización -->
-    <section id="priorizacion" class="section">
-        <div class="section-inner">
-            <div class="section-icon">📊</div>
-            <h2>1. Priorización de Proyectos</h2>
-            <p>En esta sección describimos cómo priorizamos los proyectos basándonos en criterios estratégicos, impacto en el negocio y recursos disponibles.</p>
-            <div class="card-grid">
-                <div class="card">
-                    <h3>🎯 Impacto</h3>
-                    <p>Evaluamos el impacto potencial de cada proyecto en el negocio y los clientes.</p>
+            <h2>Objetivo Principal: Ejecución Paralela</h2>
+            <div class="teams-grid">
+                <div class="team-card team-tech">
+                    <h3>⚙️ Equipo Tech</h3>
+                    <p>Ejecuta las tareas que fueron priorizadas y definidas hace un ciclo</p>
+                    <span class="badge">4 semanas</span>
                 </div>
-                <div class="card">
-                    <h3>⚡ Esfuerzo</h3>
-                    <p>Medimos el esfuerzo requerido en tiempo, personas y recursos técnicos.</p>
-                </div>
-                <div class="card">
-                    <h3>🗺️ Estrategia</h3>
-                    <p>Alineamos cada proyecto con la visión y objetivos estratégicos de la empresa.</p>
+                <div class="team-card team-producto">
+                    <h3>🎯 Equipo de Producto</h3>
+                    <p>Define y prioriza las tareas que el equipo Tech ejecutará en el siguiente ciclo</p>
+                    <span class="badge">4 semanas paralelas</span>
                 </div>
             </div>
-            <a href="#seleccion" class="btn btn-link">Ver siguiente etapa →</a>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección Selección -->
-    <section id="seleccion" class="section section-alt">
-        <div class="section-inner">
-            <div class="section-icon">🔍</div>
-            <h2>2. Selección de Proyectos</h2>
-            <p>Explicamos el proceso de selección de proyectos, incluyendo evaluación de viabilidad, alineación con objetivos y asignación de equipos.</p>
-            <ol class="steps-list">
-                <li><span>Revisión de propuestas y casos de negocio</span></li>
-                <li><span>Validación técnica con el equipo de desarrollo</span></li>
-                <li><span>Estimación de recursos y timeline</span></li>
-                <li><span>Aprobación y asignación de equipo</span></li>
-                <li><span>Kick-off y planificación de ciclo</span></li>
-            </ol>
-            <a href="#output" class="btn btn-link">Ver resultados →</a>
-        </div>
-    </section>
+        <!-- ESTRUCTURA DEL CICLO -->
+        <section id="ciclo">
+            <h2>Estructura del Ciclo de 4 Semanas</h2>
+            <p class="section-desc">El ciclo se realizará de forma constante, donde cada semana tiene un enfoque paralelo: <strong>Ejecución</strong> y <strong>Preparación</strong>.</p>
 
-    <!-- Sección Output -->
-    <section id="output" class="section">
-        <div class="section-inner">
-            <div class="section-icon">🏆</div>
-            <h2>3. Output y Resultados</h2>
-            <p>Esta sección presenta los resultados obtenidos de los proyectos completados, métricas de éxito y lecciones aprendidas.</p>
-            <div class="metrics-grid">
-                <div class="metric">
-                    <span class="metric-number">+30%</span>
-                    <span class="metric-label">Eficiencia operacional</span>
+            <div class="cycle-table-wrapper">
+                <table class="cycle-table">
+                    <thead>
+                        <tr>
+                            <th>Semana</th>
+                            <th class="col-producto">🎯 Equipo Producto</th>
+                            <th class="col-tech">⚙️ Equipo Tech</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="week-label">Semana 1</td>
+                            <td>
+                                <strong>Descubrimiento</strong>
+                                <span class="tag">Inicio del levantamiento de iniciativas y dolores por equipo</span>
+                            </td>
+                            <td>
+                                <strong>Producción</strong>
+                                <span class="tag">Ejecución de proyectos</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="week-label">Semana 2</td>
+                            <td>
+                                <strong>Priorización</strong>
+                                <span class="tag">Opportunity Score + Reunión de Líderes estratégicos</span>
+                            </td>
+                            <td>
+                                <strong>Producción</strong>
+                                <span class="tag">Ejecución de proyectos</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="week-label">Semana 3</td>
+                            <td>
+                                <strong>Definición, Diseño y Refinamientos</strong>
+                                <span class="tag">Solución, UX/UI, Validación de Stakeholders</span>
+                            </td>
+                            <td>
+                                <strong>Producción y Refinamientos</strong>
+                                <span class="tag">Ejecución de proyectos</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="week-label">Semana 4</td>
+                            <td>
+                                <strong>Validaciones y Outputs</strong>
+                                <span class="tag">Validaciones restantes y obtención de outputs</span>
+                            </td>
+                            <td>
+                                <strong>Cierre</strong>
+                                <span class="tag">Entrega final del ciclo</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="key-principle">
+                <span class="key-icon">🔑</span>
+                <p><strong>Principio Clave:</strong> Al final de la Semana 3 (viernes), el equipo de Producto debe tener las tareas listas — solamente dejando validaciones para la Semana 4 — para que el equipo Tech comience la ejecución en la Semana 1 del siguiente ciclo.</p>
+            </div>
+        </section>
+
+        <!-- FASES DE PRODUCTO -->
+        <section id="fases">
+            <h2>Detalle de Tiempos y Fases de Producto</h2>
+            <p class="section-desc">El proceso de Producto se divide en dos grandes fases que ocurren dentro de las 3 semanas: <strong>Alineamiento/Priorización</strong> (Semanas 1–2) y <strong>Definición/Validación</strong> (Semanas 2–3).</p>
+
+            <!-- FASE 1 -->
+            <div class="phase-card phase-1">
+                <div class="phase-header">
+                    <span class="phase-number">01</span>
+                    <div>
+                        <h3>Alineamiento y Priorización</h3>
+                        <span class="phase-weeks">Semanas 1 y 2</span>
+                    </div>
                 </div>
-                <div class="metric">
-                    <span class="metric-number">12</span>
-                    <span class="metric-label">Proyectos completados</span>
-                </div>
-                <div class="metric">
-                    <span class="metric-number">98%</span>
-                    <span class="metric-label">Satisfacción clientes</span>
+                <div class="table-wrapper">
+                    <table class="phase-table">
+                        <thead>
+                            <tr>
+                                <th>Días</th>
+                                <th>Actividad</th>
+                                <th>Quién</th>
+                                <th>Objetivo</th>
+                                <th>Entregable / Meta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="day-badge">S1 · Lun–Mié</span></td>
+                                <td>Recolección de dolores y levantamiento de data de task</td>
+                                <td><span class="who-badge producto">Producto</span></td>
+                                <td>Entender los problemas que están teniendo los distintos stakeholders.</td>
+                                <td>Proyectos revisados y creados en estado <em>Ready to be Created</em>. Nunca en peticiones sin datos.</td>
+                            </tr>
+                            <tr>
+                                <td><span class="day-badge">S1 · Jue–Vie</span></td>
+                                <td>Análisis para filtrar dolores/mejoras — Opportunity Score</td>
+                                <td><span class="who-badge producto">Producto</span></td>
+                                <td>Identificar qué proyectos generan más impacto y requieren menos tiempo de desarrollo para incluirlos en votación.</td>
+                                <td>Top 10 de tareas filtradas con descripción clara del DOLOR y la data que lo respalda.</td>
+                            </tr>
+                            <tr>
+                                <td><span class="day-badge">S2 · Lun–Mié</span></td>
+                                <td>Estimated T-shirt & ROI + Reunión con líderes estratégicos para brainstorm de soluciones</td>
+                                <td><span class="who-badge mixed">Producto + Liderazgo</span></td>
+                                <td>Definir proyectos prioritarios que entrarán al ciclo.</td>
+                                <td>Presentación de tareas más votadas. Los líderes proveen <strong>contexto crítico</strong> para ajustar prioridades. Se cierra el set de tareas para producción.</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-            <a href="#equipo" class="btn btn-link">Conocer al equipo →</a>
-        </div>
-    </section>
 
-    <!-- Sección Equipo -->
-    <section id="equipo" class="section section-alt">
-        <div class="section-inner">
-            <div class="section-icon">👥</div>
-            <h2>4. Nuestro Equipo</h2>
-            <p>Somos un equipo multidisciplinario apasionado por construir productos que transforman la logística.</p>
-            <div class="team-grid">
-                <div class="team-card">
-                    <div class="avatar">FC</div>
-                    <h3>Felipe Cruz</h3>
-                    <p>Product Manager</p>
+            <!-- FASE 2 -->
+            <div class="phase-card phase-2">
+                <div class="phase-header">
+                    <span class="phase-number">02</span>
+                    <div>
+                        <h3>Definición y Refinamientos</h3>
+                        <span class="phase-weeks">Semanas 2 y 3</span>
+                    </div>
                 </div>
-                <div class="team-card">
-                    <div class="avatar">CG</div>
-                    <h3>Camila García</h3>
-                    <p>Product Designer</p>
-                </div>
-                <div class="team-card">
-                    <div class="avatar">EN</div>
-                    <h3>Eduarda Neves</h3>
-                    <p>Product Analyst</p>
+                <p class="phase-desc">Una vez priorizadas las tareas, el foco se mueve a la calidad de la solución y su definición.</p>
+                <div class="table-wrapper">
+                    <table class="phase-table">
+                        <thead>
+                            <tr>
+                                <th>Días</th>
+                                <th>Actividad</th>
+                                <th>Quién</th>
+                                <th>Objetivo</th>
+                                <th>Entregable / Meta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="day-badge">S2 · Jue–Vie</span></td>
+                                <td>Definición de Solución y Casos de Uso. Solicitud de test de usuario. Inicio de diseño.</td>
+                                <td><span class="who-badge mixed">Producto + Tech Lead</span></td>
+                                <td>Definir la solución detallada, casos de uso y alcance. Coordinar test de usuario con el equipo responsable.</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td><span class="day-badge">S3 · Lun–Mié</span></td>
+                                <td>Diseño UX/UI y Flujos. Validación con equipos. Inicio de refinamientos preliminares.</td>
+                                <td><span class="who-badge design">Diseño + Tech</span></td>
+                                <td>Creación de flujos y diseño de alta fidelidad asegurando una buena experiencia de usuario.</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td><span class="day-badge">S3 · Jue–Vie</span></td>
+                                <td>Refinamientos + Test de Usuario</td>
+                                <td><span class="who-badge mixed">Producto + Tech + Champion</span></td>
+                                <td>Revisión del diseño y la solución con los equipos clave para asegurar alineación y viabilidad.</td>
+                                <td>—</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Sección Contacto -->
-    <section id="contacto" class="section">
-        <div class="section-inner text-center">
-            <div class="section-icon">📬</div>
-            <h2>5. Contacto</h2>
-            <p>¿Tienes alguna idea o proyecto? ¡Nos encantaría escucharte!</p>
-            <div class="contact-links">
-                <a href="mailto:producto@wareclouds.com" class="btn btn-primary">✉️ Enviar Email</a>
-                <a href="https://wareclouds.slack.com" target="_blank" class="btn btn-secondary">💬 Slack</a>
-                <a href="https://www.notion.so/wareclouds" target="_blank" class="btn btn-secondary">📝 Notion</a>
+            <!-- FASE 3 -->
+            <div class="phase-card phase-3">
+                <div class="phase-header">
+                    <span class="phase-number">03</span>
+                    <div>
+                        <h3>Validaciones Finales y Outputs</h3>
+                        <span class="phase-weeks">Semana 4</span>
+                    </div>
+                </div>
+                <div class="table-wrapper">
+                    <table class="phase-table">
+                        <thead>
+                            <tr>
+                                <th>Días</th>
+                                <th>Actividad</th>
+                                <th>Quién</th>
+                                <th>Objetivo</th>
+                                <th>Entregable / Meta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="day-badge">S4 · Lun–Jue</span></td>
+                                <td>Test de usuario + Correcciones a diseños. Validaciones restantes. Definición de outputs.</td>
+                                <td><span class="who-badge producto">Producto</span></td>
+                                <td>Cerrar los proyectos completamente para entrega a Tech.</td>
+                                <td>Producto aplica correcciones y asegura las validaciones necesarias en proyectos pendientes.</td>
+                            </tr>
+                            <tr>
+                                <td><span class="day-badge">S4 · Viernes</span></td>
+                                <td>Cierre de Producto. Limpieza de proyectos.</td>
+                                <td><span class="who-badge mixed">Producto + Tech Lead</span></td>
+                                <td>Entrega y preparación para el nuevo ciclo.</td>
+                                <td>Se cierran proyectos con Tech Lead. Se revisan los dolores levantados para limpiar la tabla.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-inner">
-            <p>© 2026 <strong>Wareclouds</strong> · Equipo de Producto</p>
-            <div class="footer-links">
-                <a href="#inicio">Inicio</a>
-                <a href="#priorizacion">Priorización</a>
-                <a href="#seleccion">Selección</a>
-                <a href="#output">Resultados</a>
-                <a href="#equipo">Equipo</a>
-                <a href="#contacto">Contacto</a>
+        <!-- COMPROMISOS CLAVE -->
+        <section id="compromisos">
+            <h2>Compromisos Clave y Definiciones</h2>
+
+            <div class="commitments-grid">
+                <div class="commitment-card">
+                    <div class="commitment-icon">📊</div>
+                    <h3>1. Criterio Basado en Data</h3>
+                    <p>La respuesta a cualquier iniciativa o dolor debe ser en base a datos. El equipo de Producto debe ser el <strong>guardián de la data</strong>, priorizando el impacto cuantificable sobre la opinión o la demanda sin sustento.</p>
+                </div>
+
+                <div class="commitment-card">
+                    <div class="commitment-icon">✅</div>
+                    <h3>2. Definición de Listo</h3>
+                    <p>Una tarea solo puede entrar al ciclo si al final de la Semana 3 cumple con <strong>TODOS</strong> los siguientes requisitos:</p>
+                    <ul>
+                        <li>Solución, alcance y casos de uso claros.</li>
+                        <li>Diseño UX/UI finalizado y revisado.</li>
+                        <li>Validación de Stakeholders realizada y aceptada.</li>
+                        <li>Test de Usuario (si aplica) completado y aprendizajes incorporados.</li>
+                        <li>Tarea estimada por el equipo Tech.</li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 <strong>Wareclouds</strong> · Equipo de Producto</p>
     </footer>
-
-    <!-- Scroll suave -->
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
-
-        // Navbar activa según scroll
-        window.addEventListener('scroll', () => {
-            const navbar = document.querySelector('.navbar');
-            navbar.classList.toggle('scrolled', window.scrollY > 50);
-        });
-    </script>
 
 </body>
 </html>
